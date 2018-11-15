@@ -27,5 +27,11 @@ class ViewController: UIViewController {
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
+    @IBAction func clickStaticLinkAction() {
+        let vc = StaticLinkViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    
 }
 

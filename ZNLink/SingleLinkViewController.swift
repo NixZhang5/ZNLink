@@ -12,6 +12,7 @@ class SingleLinkViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.title = "单链表、动态链表"
         self.view.backgroundColor = UIColor.white
         
         // 静态链表和动态链表的区别：静态链表限制了数据元素存放的位置范围；动态链表是整个内存空间。
