@@ -14,6 +14,7 @@
 		3F26183A219C0C70006ECEBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F261838219C0C70006ECEBF /* LaunchScreen.storyboard */; };
 		3F261842219C0CAA006ECEBF /* SingleLinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F261841219C0CAA006ECEBF /* SingleLinkViewController.swift */; };
 		3F2C43FE219D08160038C182 /* StaticLinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C43FD219D08160038C182 /* StaticLinkViewController.swift */; };
+		3FD418A1219D36FE007EC190 /* CyclicLinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD418A0219D36FE007EC190 /* CyclicLinkViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3F26183B219C0C70006ECEBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F261841219C0CAA006ECEBF /* SingleLinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLinkViewController.swift; sourceTree = "<group>"; };
 		3F2C43FD219D08160038C182 /* StaticLinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticLinkViewController.swift; sourceTree = "<group>"; };
+		3FD418A0219D36FE007EC190 /* CyclicLinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclicLinkViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				3F261831219C0C6E006ECEBF /* ViewController.swift */,
 				3F261841219C0CAA006ECEBF /* SingleLinkViewController.swift */,
 				3F2C43FD219D08160038C182 /* StaticLinkViewController.swift */,
+				3FD418A0219D36FE007EC190 /* CyclicLinkViewController.swift */,
 				3F261833219C0C6E006ECEBF /* Main.storyboard */,
 				3F261836219C0C70006ECEBF /* Assets.xcassets */,
 				3F261838219C0C70006ECEBF /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD418A1219D36FE007EC190 /* CyclicLinkViewController.swift in Sources */,
 				3F261832219C0C6E006ECEBF /* ViewController.swift in Sources */,
 				3F261830219C0C6E006ECEBF /* AppDelegate.swift in Sources */,
 				3F2C43FE219D08160038C182 /* StaticLinkViewController.swift in Sources */,

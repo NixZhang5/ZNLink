@@ -44,13 +44,28 @@
                                     <action selector="clickStaticLinkAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="ew5-tV-83Y"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ef4-Tf-7zE">
+                                <rect key="frame" x="112" y="354" width="150" height="45"/>
+                                <color key="backgroundColor" red="0.48627450979999998" green="0.83529411760000005" blue="0.54117647059999996" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="nj4-rj-rm7"/>
+                                    <constraint firstAttribute="width" constant="150" id="siC-G3-1dz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="循环链表、约瑟夫环"/>
+                                <connections>
+                                    <action selector="clickCyclicLinkAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="OAx-LC-g65"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="DtG-F5-pai" firstAttribute="leading" secondItem="SPI-IT-gl0" secondAttribute="leading" id="9ai-Ze-jc2"/>
                             <constraint firstItem="DtG-F5-pai" firstAttribute="top" secondItem="SPI-IT-gl0" secondAttribute="bottom" constant="50" id="EGR-sp-pTB"/>
+                            <constraint firstItem="Ef4-Tf-7zE" firstAttribute="leading" secondItem="DtG-F5-pai" secondAttribute="leading" id="Jqn-aR-ez1"/>
                             <constraint firstItem="SPI-IT-gl0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="OX3-rl-XUt"/>
-                            <constraint firstItem="DtG-F5-pai" firstAttribute="height" secondItem="SPI-IT-gl0" secondAttribute="height" id="WPd-ar-7a8"/>
+                            <constraint firstItem="Ef4-Tf-7zE" firstAttribute="top" secondItem="DtG-F5-pai" secondAttribute="bottom" constant="50" id="Py5-NN-X3k"/>
+                            <constraint firstItem="Ef4-Tf-7zE" firstAttribute="trailing" secondItem="DtG-F5-pai" secondAttribute="trailing" id="ZKm-GM-5SD"/>
                             <constraint firstItem="SPI-IT-gl0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZtE-PW-4bY"/>
                             <constraint firstItem="DtG-F5-pai" firstAttribute="trailing" secondItem="SPI-IT-gl0" secondAttribute="trailing" id="kFN-Ez-fRF"/>
                         </constraints>

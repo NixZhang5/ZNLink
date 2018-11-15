@@ -32,6 +32,10 @@ class ViewController: UIViewController {
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
+    @IBAction func clickCyclicLinkAction() {
+        let vc = CyclicLinkViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
     
 }
 
