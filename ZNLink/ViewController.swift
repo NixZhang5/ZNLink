@@ -37,5 +37,9 @@ class ViewController: UIViewController {
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
+    @IBAction func clickDoubleLinkAction() {
+        let vc = DoubleLinkViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
 
