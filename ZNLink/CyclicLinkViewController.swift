@@ -41,7 +41,7 @@ class CyclicLinkViewController: UIViewController {
 }
 
 
-class CLink: NSObject {
+class CLink {
     var head: CLinkNode
     
     init(count: Int) {

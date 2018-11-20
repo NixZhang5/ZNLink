@@ -61,7 +61,7 @@ class SingleLinkViewController: UIViewController {
 
 }
 
-class SLink: NSObject {
+class SLink {
     
     var head: SLinkNode = SLinkNode.init(element: 0)
     
